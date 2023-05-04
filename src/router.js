@@ -25,10 +25,12 @@ const routes = [//위에있는 path가 우선순위
     // props: {blogData: Object}
   },
   {
+    name: "list",
     path: "/list",  /* url 경로 */
     component: ListComponent, /* import해온 컴포넌트 */
   },
   {
+    name: "root",
     path: "/",  /* url 경로 */
     component: HomeComponent, /* import해온 컴포넌트 */
   },

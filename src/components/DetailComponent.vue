@@ -10,7 +10,7 @@
             <p class="card-text text-muted">{{ blogDataList[$route.params.id].content }}</p>
             <button class="m-1" @click="routePath('author')">작가소개</button>
             <button class="m-1" @click="routePath('comment')">댓글보기</button>
-            <button class="m-1" @click="$router.go(-1)">뒤로가기</button>
+            <button class="m-1" @click="routePath('list')">뒤로가기</button>
         </div>
         <!--children router-->
         <router-view></router-view>
